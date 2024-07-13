@@ -13,13 +13,12 @@ const Navbar = () => {
 
   useEffect(() => {
     const body = document.getElementById("mainBody");
-
     if (isDark) {
       body.style.background = "#fcfcfc";
       body.style.color = "#1F2937";
     } else {
       body.style.background = "#1D232A";
-      body.style.color = "#fcfcfc";
+      body.style.color = "#f2f2f2";
     }
   }, [isDark]);
 
