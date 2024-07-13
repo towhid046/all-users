@@ -30,7 +30,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <h2 className="text-2xl font-bold text-center italic">All Users</h2>
+        <h2 className="text-2xl font-bold text-center italic cursor-pointer">All Users</h2>
         <button className="text-2xl" onClick={handleControlTheme}>
           {isDark ? <MdOutlineLightMode /> : <CiDark />}
         </button>
